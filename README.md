@@ -200,7 +200,7 @@ branch* → `main` / `/ (root)`.
 Every path in the project is **relative** (`css/style.css`, `js/main.js`,
 `assets/anime/berserk.jpg`) — there is not one root-relative `/…` reference — so
 the site works unchanged at a repository subpath like
-`https://premedo.github.io/amirhossein-portfolio/`, at a custom domain, or from a local
+`https://premedo.github.io/`, at a custom domain, or from a local
 folder. The only outbound request is Google Fonts, and it is deliberately
 non-blocking: if it never arrives, the layout falls back to `system-ui` and the
 page still renders immediately.
