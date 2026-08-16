@@ -5,7 +5,7 @@ page — you are standing in a plaza, and the sections of the portfolio are glow
 pillars you walk up to. Gallery rings behind two of the pillars hold card stands
 you can walk around and open full size.
 
-🔗 **Live:** [https://Premedo.github.io](https://amirhossein41148.github.io/amirhossein-portfolio/)
+🔗 **Live:** https://premedo.github.io/
 
 ---
 
@@ -200,7 +200,7 @@ branch* → `main` / `/ (root)`.
 Every path in the project is **relative** (`css/style.css`, `js/main.js`,
 `assets/anime/berserk.jpg`) — there is not one root-relative `/…` reference — so
 the site works unchanged at a repository subpath like
-`https://USERNAME.github.io/REPOSITORY/`, at a custom domain, or from a local
+`https://premedo.github.io/amirhossein-portfolio/`, at a custom domain, or from a local
 folder. The only outbound request is Google Fonts, and it is deliberately
 non-blocking: if it never arrives, the layout falls back to `system-ui` and the
 page still renders immediately.
